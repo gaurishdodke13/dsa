@@ -1,5 +1,3 @@
-import java.util.Enumeration;
-import java.util.Hashtable;
 import java.util.HashMap;
 
 class Solution {
@@ -18,7 +16,7 @@ class Solution {
         //     }
         // }
         
-        Map< Integer, Integer> map = new HashMap<>();
+        HashMap< Integer, Integer> map = new HashMap<>();
 
         for(int i=0; i<nums.length; i++){
             int comp = target - nums[i];
